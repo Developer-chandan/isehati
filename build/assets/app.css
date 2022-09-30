@@ -12566,7 +12566,7 @@ nav li.active {
 .home {
   position: relative;
   padding-top: 100px;
-  background: url("build/assets/slideBg.167dc209.png") center bottom / 100% no-repeat;
+  background: url("/images/slidebg.png") center bottom / 100% no-repeat;
   padding-bottom: 60px;
 }
 
@@ -13817,7 +13817,7 @@ ul.stores.col-sm-6 li a img {
 
 footer .copyright {
   float: right;
-  font-size: 17px !important;
+  /* font-size: 17px !important; */
 }
 
 footer .stores li {
