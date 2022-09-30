@@ -1,0 +1,429 @@
+@media(max-width:992px){
+    .collapse.show {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-bottom: 1rem;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        background: white;
+
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-nav .nav-link {
+        
+        display: inline-block;
+        padding: 0.2rem 2rem;
+        margin: .5rem 0;
+    }
+
+
+
+    .showcase_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .home h1, .home .h1 {
+        font-size: 48px;
+        max-width: 800px;
+    }
+.platform .full{
+    margin: 1rem 0;
+}
+.row.home p {
+    /* padding-right: 5rem; */
+    font-size: 19px !important;
+}
+.components p {
+    color: rgb(127, 127, 127);
+    /* padding-right: 5rem; */
+}
+
+
+/* pricing */
+.pricing .blocks .block {
+    position: relative;
+    width: 28%;
+    /* height: 70px; */
+    margin-right: 0%;
+   
+}
+.block span {
+    font-size: 15px !important;
+}
+
+.pricing .blocks .size {
+    position: relative;
+    left: 0px;
+}
+
+.pricing .blocks .prc {
+    width: 100%;
+    margin-right: 8%;
+    padding-left: 54px;
+    padding-right: 60px;
+    float: left;
+    padding-bottom: 23px;
+    box-shadow: rgb(234 229 229 / 92%) 1px 2px 17px 2px;
+    border-bottom: 3px solid rgb(242, 242, 242) !important;
+}
+.row.dashboard_content > div > .title {
+    margin-left: 0px;
+}
+.accordion{
+    width: 90%;
+}
+.contact .contactText,
+.contact .logos{
+    max-width: 100%;
+}
+
+/* clinical  */
+.clinical .cent {
+   
+    max-width: 90%;
+}
+
+.container.design .col-lg-6{
+    margin: 1rem 0;
+}
+.clinical {
+    background: linear-gradient(#00000070, #00000063, #0000004a, #0000006e),url(/images/clinical.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 3rem 0;
+    height: auto;
+}
+.web_research,
+.engagement_wrap{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.col-lg-3.process_start_btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.design p{
+max-width: 100%;
+}
+
+.plan_dashboard_header{
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+.plan_dashboard_header > div{
+
+    display: block;
+}
+
+.clinical .cent h1, .clinical .cent .h1 {
+    font-size: 32px;
+    color: white;
+}
+.clinical .cent p{
+color: white;
+}
+
+  /* home helth care  */
+
+  .homecare img{
+    height: auto;
+  }
+
+  .homecare_2 h1, .homecare_2 .h1 {
+   
+    max-width: 100%;
+ 
+}
+
+.homecare_2 p {
+    font-size: 16px;
+    margin-top: 20px;
+    max-width: 90%;
+    color: rgb(127, 127, 127);
+}
+.start_btn,
+.process button.btn-yellow{
+    display: flex;
+    justify-content: center;
+ 
+}
+.process button.btn-yellow{
+    margin: 0;
+}
+ul.socials.col-sm-6 {
+    display: flex;
+    justify-content: center;
+}
+.copyright_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.tools .block .title {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px !important;
+}
+.solution_title p {
+    text-align: center;
+    padding: 0px;
+    position: relative;
+}
+.container.contact {
+    width: 70%;
+    padding-top: 4rem;
+}
+.accordion-body {
+   
+    padding: 1rem;
+    text-align: start;
+}
+.col-lg-12.schedule_btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.row.clinical_sub_manu,
+.healthcare_sub_manu,
+.talehelth_sub_manu,
+ .proapp_sub_manu,
+ .istiapp_sub_manu{
+    display: flex;
+    flex-direction: column;
+}
+.row.clinical_sub_manu img,
+.healthcare_sub_manu img,
+.talehelth_sub_manu img,
+ .proapp_sub_manu img,
+ .istiapp_sub_manu img{
+    width: 53px;
+    height: 44px;
+}
+.row.clinical_sub_manu .col-3,
+.healthcare_sub_manu .col-3,
+.talehelth_sub_manu .col-3,
+ .proapp_sub_manu .col-3,
+ .istiapp_sub_manu .col-3{
+   display: grid;
+   place-items: center;
+}
+.row.clinical_sub_manu, .healthcare_sub_manu, .talehelth_sub_manu, .proapp_sub_manu, .istiapp_sub_manu {}
+
+.solutions .blocks .title {
+    font-size: 15px !important;
+    margin-bottom: 2px;
+    letter-spacing: 1px;
+}
+
+.solutions .blocks .desc {
+    font-size: 14px !important;
+    line-height: 20px;
+}
+.solutions {
+    padding-top: 8px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .row.home p ,
+    .components p{
+        padding-right: 0;
+    }
+    footer .connect {
+        overflow: hidden;
+        border-bottom: 1px solid rgb(217, 217, 217);
+        padding: 2rem 0px 2rem;
+    }
+    .pricing .blocks .block{
+        width: 80%;
+        margin: .3rem 0;
+    }
+    .compare_plans .btn-default {
+      
+        padding: 0.4rem 0.9rem;
+    }
+    .pricing .blocks .size .yearly {
+    
+        font-size: 11px;
+        color: rgb(0, 112, 192);
+        text-align: center;
+        float: none;
+        display: inline-block;
+    }
+    
+    .footer_logo{
+        display: flex;
+        justify-content: center;
+    }
+    footer .stores li {
+        margin-right: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+    ul.stores.col-sm-6 li a {
+        width: 50%;
+    }
+    ul.stores.col-sm-6 li a img {
+        width: 100%;
+    }
+    .home img {
+        max-width: 140px;
+        margin-top: 20px;
+    }
+    .components img {
+        width: 95%;
+    }
+    .components {
+        padding-top: 36px;
+    }
+    .platform {
+        padding-top: 67px;
+    }
+    .borderBottom {
+        padding-top: 15px;
+     
+        border-bottom: 0;
+    }
+    .tools {
+        padding-top: 40px;
+    }
+    .container.tools h1 {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .design{
+        padding-top: 43px;
+    }
+    .access, .records {
+        padding-top: 55px;
+    }
+    .container.records.mt-5 {
+        padding-top: 0;
+    }
+    .engagement h1, .engagement .h1 {
+        font-size: 34px;
+    }
+    .engagement img {
+        max-width: 90%;
+    }
+    .homecare {
+        padding-top: 0rem;
+    }
+    
+.homecare_2 p {
+    
+    max-width: 100%;
+    color: rgb(127, 127, 127);
+}
+.block h1 {
+    font-size: 20px;
+}
+.engagem h1, .engagem .h1 {
+    max-width: 100%;
+    font-size: 27px;
+   
+}
+.homecare_mobile_image{
+    display: flex;
+    justify-content: center;
+}
+.patient .block {
+    padding: 40px 20px;
+}
+.patient h1, .patient .h1{
+    margin-bottom: 3px;
+}
+}
+
+
+
+
+
+
+
+
+@media (max-width:575px){
+   
+    .home h1, .home .h1 {
+        font-size: 30px;
+        max-width: 800px;
+    }
+    footer .copyright {
+        float: right;
+        text-align: center;
+    }
+    .stores.col-sm-6{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .pricing .block img {
+        /* margin-right: 10px; */
+        height: 115%;
+    }
+    .container.tools h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .container.contact {
+        width: 96%;
+        padding-top: 4rem;
+    }
+    .solutions .blocks .desc {
+        font-size: 14px !important;
+        line-height: 17px;
+    }
+    .solutions .blocks .title {
+        font-size: 14px !important;
+    margin-bottom: 2px;
+    line-height: 16px;
+    margin: 3px 0;
+    }
+    .solutions {
+        padding-top: 0px;
+    }
+    .solution_title p {
+        text-align: center;
+        padding: 0px;
+        position: relative;
+        line-height: 16px;
+        font-size: 15px !important;
+        padding-bottom: 4px;
+    }
+  
+    .solutions .blocks .desc {
+        font-weight: 400;
+        color: rgb(127, 127, 127);
+        margin-bottom: 20px;
+        padding-right: 0rem;
+        font-size: 14px !important;
+    }
+    .row.istiapp_sub_manu {
+        margin-top: -23px;
+    }
+    .access p, .records p {
+        margin-top: 30px;
+        padding-right: 0rem;
+    }
+   
+}
