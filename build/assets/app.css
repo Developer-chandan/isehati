@@ -12472,7 +12472,7 @@ fieldset:disabled .btn {
   }
 }
 
-@font-face {
+/* @font-face {
   font-family: "Google Sans";
   src: url("/build/assets/ProductSans-Regular.744c8a73.ttf");
 }
@@ -12480,7 +12480,7 @@ fieldset:disabled .btn {
 @font-face {
   font-family: "Proxima Nova";
   src: url("/build/assets/Proxima_nova.2b80fbe5.otf");
-}
+} */
 
 * {
   font-family: "Google Sans";
@@ -12566,7 +12566,7 @@ nav li.active {
 .home {
   position: relative;
   padding-top: 100px;
-  background: url("/build/assets/slideBg.167dc209.png") center bottom / 100% no-repeat;
+  background: url("build/assets/slideBg.167dc209.png") center bottom / 100% no-repeat;
   padding-bottom: 60px;
 }
 
