@@ -1,4 +1,7 @@
 @media(max-width:992px){
+    .container {
+        max-width: 100%;
+    }
     .collapse.show {
         display: flex;
         text-align: center;
@@ -36,7 +39,7 @@
 }
 .row.home p {
     /* padding-right: 5rem; */
-    font-size: 19px !important;
+    font-size: 17px !important;
 }
 .components p {
     color: rgb(127, 127, 127);
@@ -80,6 +83,7 @@
 .contact .contactText,
 .contact .logos{
     max-width: 100%;
+    margin-top: 50px;
 }
 
 /* clinical  */
@@ -230,8 +234,42 @@ ul.socials.col-sm-6 {
 .solutions {
     padding-top: 8px;
 }
+.plan_dashboard_header {display: grid;grid-template-columns:  1fr 1fr 1fr;    padding-left: 10rem;
+}
 
+.blocks.container {
+    width: 60%;
+}
+.container.compare_plans{
+    width: 90%;
+    padding: 0;
+}
 
+.container.patient {
+    width: 70%;
+}
+.col-md-5.copyright.d-flex.justify-content-center {
+    width: 100%;
+}
+
+.compare_plans .dashboard, .compare_plans .workspace {
+    border-top: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-size: 21px !important;
+    margin-left: -6px;
+}
+.home {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.row.home p {
+    padding-bottom: 0em;
+}
 
 
 }
@@ -256,7 +294,7 @@ ul.socials.col-sm-6 {
         padding: 2rem 0px 2rem;
     }
     .pricing .blocks .block{
-        width: 80%;
+        width: 53%;
         margin: .3rem 0;
     }
     .compare_plans .btn-default {
@@ -265,11 +303,15 @@ ul.socials.col-sm-6 {
     }
     .pricing .blocks .size .yearly {
     
-        font-size: 11px;
-        color: rgb(0, 112, 192);
-        text-align: center;
-        float: none;
-        display: inline-block;
+font-size: 11px;
+    
+color: rgb(0, 112, 192);
+    
+text-align: center;
+    
+float: right;
+    
+display: inline-block;
     }
     
     .footer_logo{
@@ -354,6 +396,51 @@ ul.socials.col-sm-6 {
 .patient h1, .patient .h1{
     margin-bottom: 3px;
 }
+.blocks.overflow.row.justify-content-evenly, .blocks.container, .blocks.container, .container.compare_plans{
+    padding: 0;
+}
+.plan_dashboard_header {display: grid;grid-template-columns:  1fr 1fr 1fr;    padding-left:0rem;
+}
+.blocks.container {
+    width: 70%;
+}
+.container.compare_plans{
+    width: 90%;
+}
+.col-sm-4.footer_wrapper {
+    width: 50%;
+}
+
+.container.patient {
+    width: 75%;
+}
+.engagem {
+    padding-top: 25px;
+}
+.homecare_2 {
+    padding-top: 0px;
+}
+.getstartBtn {
+    padding-top: 1rem;
+}
+.home {
+
+    padding-bottom: 59px;
+}
+.pricing .blocks .block {
+    width: 80%;
+}
+.contact form {
+
+    padding: 16px;
+
+}
+.clinical .cent {
+    display: table;
+    padding-top: 43px;
+    max-width: 441px;
+}
+
 }
 
 
@@ -395,9 +482,9 @@ ul.socials.col-sm-6 {
     }
     .solutions .blocks .title {
         font-size: 14px !important;
-    margin-bottom: 2px;
-    line-height: 16px;
-    margin: 3px 0;
+        margin-bottom: 6px !important;
+        line-height: 16px;
+        margin: 3px 0;
     }
     .solutions {
         padding-top: 0px;
@@ -406,9 +493,9 @@ ul.socials.col-sm-6 {
         text-align: center;
         padding: 0px;
         position: relative;
-        line-height: 16px;
+        line-height: 19px;
         font-size: 15px !important;
-        padding-bottom: 4px;
+        padding-bottom: 9px;
     }
   
     .solutions .blocks .desc {
@@ -424,6 +511,30 @@ ul.socials.col-sm-6 {
     .access p, .records p {
         margin-top: 30px;
         padding-right: 0rem;
+    }
+    .blocks.container {
+        width: 85%;
+    }
+    .container.compare_plans{
+        width: 90%;
+    }
+    .container.patient {
+        width: 90%;
+    }
+    .col-sm-4.footer_wrapper {
+        width: 100%;
+    }
+    .patient .block{
+        margin: 0;
+    }
+    
+    .container.patient {
+        width: 100%;
+    }
+    .pricing .blocks .size .yearly {
+        
+        float: none;
+       
     }
    
 }
