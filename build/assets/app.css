@@ -141,7 +141,7 @@ progress { vertical-align: baseline; }
 @media (min-width: 1400px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container { max-width: 1320px; }
 }
-.row { --bs-gutter-x: 1.5rem; --bs-gutter-y: 0; display: flex; flex-wrap: wrap; margin-top: calc(-1 * var(--bs-gutter-y)); margin-right: calc(-0.5 * var(--bs-gutter-x)); margin-left: calc(-0.5 * var(--bs-gutter-x)); }
+.row {--bs-gutter-x: 1.5rem; --bs-gutter-y: 0;display: flex;flex-wrap: wrap;margin-top: calc(-1 * var(--bs-gutter-y));margin-right: calc(-0.5 * var(--bs-gutter-x));margin-left: calc(-0.5 * var(--bs-gutter-x));}
 .row > * { flex-shrink: 0; width: 100%; max-width: 100%; padding-right: calc(var(--bs-gutter-x) * 0.5); padding-left: calc(var(--bs-gutter-x) * 0.5); margin-top: var(--bs-gutter-y); }
 .col { flex: 1 0 0%; }
 .row-cols-auto > * { flex: 0 0 auto; width: auto; }
@@ -2848,7 +2848,7 @@ span#basicPrice { color: rgb(146, 208, 80); font-size: 32px !important; }
 i.fa-solid.fa-earth-europe { font-size: 26px; color: rgb(98, 206, 253); margin: 0px 2px 0px 5px; }
 .getstartBtn { padding-top: 3rem; }
 img.world_icon { height: 25px; margin-right: 3px; width: 50% !important; }
-.border_bottom {padding-top: 5rem;border-bottom: 1px solid rgb(221, 221, 221);}
+.border_bottom { padding-top: 5rem; border-bottom: 1px solid rgb(221, 221, 221); }
 .block.client_relationship img { margin-top: -2rem; }
 .block.client_relationship h1 { padding-bottom: 10px; }
 .th_showcase_wrapper { background: url("/images/designbg.png") center bottom / contain no-repeat; padding-bottom: 5rem; }
@@ -2885,13 +2885,13 @@ p.doctor_name::after { content: ""; position: absolute; width: 12px; height: 2px
 .proapp_showcase_img { display: flex; justify-content: flex-end; }
 .proapp_showcase_wrapper { background: url("/images/proappbg.png") left bottom / 55% no-repeat; z-index: 99; }
 .mobile_pro_app_content_wrap { display: flex; align-items: center; }
-section#q_started {padding-top: 6rem;}
+section#q_started { padding-top: 6rem; }
 .q_started_content h1 { font-size: 31px; padding-bottom: 2rem; }
 .q_started_content p { color: var(--light-gray); font-size: 17px !important; }
 .q_started_content { padding-right: 2rem; }
 .mobile_pro_app { display: flex; justify-content: flex-end; }
 .app_policy svg { width: 21px; }
-section#provider_mobile_app {padding: 4rem 0px;}
+section#provider_mobile_app {padding-top: 7rem;padding-bottom: 1rem;}
 .provider_mobile_app_content h2 { text-transform: capitalize; font-size: 31px; padding-bottom: 2rem; }
 .app_policy { display: flex; }
 .policy_content { padding-left: 1rem; padding-right: 4rem; }
@@ -2902,35 +2902,64 @@ section#provider_mobile_app {padding: 4rem 0px;}
 .mobile_app_img img { width: 86%; }
 .proapp_accordian .accordion-item { margin: 8px 0px; border: none; box-shadow: rgb(221, 221, 221) 0px 0px 2px 1px; }
 section#accordian { margin-top: 3rem; }
-section#q_started .border_bottom {
-  padding-top: 2rem;
+section#q_started .border_bottom { padding-top: 2rem; }
+.proapp_accordian .accordion-button::after { display: none; }
+.proapp_accordian button.accordion-button { display: flex; justify-content: space-between; font-size: 18px; font-weight: 500; }
+.proapp_accordian button.accordion-button i { color: rgb(0, 126, 181); }
+.proapp_accordian button.accordion-button .fa-square-minus { display: block; }
+.proapp_accordian button.accordion-button .fa-square-plus { display: none; }
+.proapp_accordian button.accordion-button.collapsed .fa-square-plus { display: block; }
+.proapp_accordian button.accordion-button.collapsed .fa-square-minus { display: none; }
+.client_mobile_app img { width: 54%; margin-top: -2rem; }
+.mobile_app_img.client_mobile_app { display: flex; justify-content: center; }
+#exchange { margin: 4rem 0px; }
+.exchange_policy {box-shadow: rgb(217 217 217) 2px 4px 10px 2px;border-radius: 34px;padding: 1rem 5px 5px 1rem;position: relative;background: white;}
+.exchange_policy h3 {width: 87px;height: 87px;background: #00b050;border-radius: 50px;display: grid;place-items: center;color: #c00000;position: absolute;left: -61px;top: -47px;z-index: -1;}
+.exchange_policy p { padding: 7px; font-size: 17px !important; }
+section#exchange h2 {padding-bottom: 5rem;}
+.exchange_policy_wrapper { display: flex; flex-direction: column; align-items: center; }
+.exchange_policy_wrapper > div {margin: 2rem 0px;}
+.exchange_policy.even_numb_box h3 {position: absolute;right: -51px;left: initial;top: -55px;}
+.exchange_policy.even_numb_box {box-shadow: rgb(217 217 217) -4px 2px 10px 2px;}
+.row.exchange_policy_main_wrapper { padding: 0px 4rem; }
+.app_hero_content .getstartBtn {
+  text-align: start !important;
+  margin-left: 0rem;
+  padding-top: 1rem;
+}
+.app_hero_section_wrapper{
+  background: url(/images/app-shocase.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 461px;
+  margin-top: -6px;
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+section#app_hero {
+  margin-top: 68px;
 }
 
-.proapp_accordian .accordion-button::after{
-  display: none;
-}
-.proapp_accordian button.accordion-button {
-  display: flex;
-  justify-content: space-between;
-  font-size: 18px;
-  font-weight: 500;
+.app_hero_content {
+  padding-top: 7rem;
+  padding-left: 2rem;
 }
 
-.proapp_accordian button.accordion-button i {
-  color: #007eb5;
+.app_hero_content h1 {
+  padding-bottom: 1rem;
+  font-size: 32px;
 }
 
-
-
-.proapp_accordian button.accordion-button .fa-square-minus{
-  display: block;
+.app_hero_content p {
+  font-size: 16px !important;
 }
-.proapp_accordian button.accordion-button .fa-square-plus{
-  display: none;
-}
-.proapp_accordian button.accordion-button.collapsed .fa-square-plus{
-  display: block;
-}
-.proapp_accordian button.accordion-button.collapsed .fa-square-minus{
-  display: none;
+.app_showcase_below{
+  background: #63c2de;
+  text-align: center;
+  color: white;
+  width: 100%;
+  padding: 25px 0;
+  margin-top: -7px;
 }
