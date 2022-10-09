@@ -2963,3 +2963,9 @@ section#app_hero {
   padding: 25px 0;
   margin-top: -7px;
 }
+.getstartBtn a{
+  text-align: end;
+}
+section#accordian h3 {
+  font-family: "EB Garamond", serif;
+}
