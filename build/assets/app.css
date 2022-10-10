@@ -2611,7 +2611,7 @@ nav li.active { background: rgb(242, 242, 242); }
 .solutions p { font-weight: 700; font-size: 14px; }
 .solutions a { text-decoration: none; }
 .solutions .blocks .title { font-weight: 700; margin-bottom: 6px; display: inline-block; font-size: 14px !important; }
-.solutions .blocks .desc { font-weight: 400; color: rgb(127, 127, 127); margin-bottom: 45px; padding-right: 2rem; }
+.solutions .blocks .desc {font-weight: 400;color: rgb(127, 127, 127);margin-bottom: 36px;padding-right: 2rem;}
 .solution_title p { text-align: center; padding: 0px 3rem 1rem; position: relative; }
 .solution_title p::after { content: ""; position: absolute; width: 200px; height: 1px; background: red; bottom: 0px; left: 50%; transform: translateX(-50%); }
 .borderBottom { padding-top: 39px; border-bottom: 1px solid rgb(217, 217, 217); }
@@ -2979,6 +2979,19 @@ section#accordian h3 {
 .talehelth_sub_manu{
   padding-top: 10px;
 }
+.row.clinical_sub_manu:hover,
+.proapp_sub_manu:hover,
+.healthcare_sub_manu:hover,
+.istiapp_sub_manu:hover,
+.talehelth_sub_manu:hover{
+  background-color: #f1f1fb;
+
+}
+
+
+
+
+
 .row.clinical_sub_manu.active,
 .proapp_sub_manu.active,
 .healthcare_sub_manu.active,
