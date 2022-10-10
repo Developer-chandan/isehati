@@ -96,7 +96,7 @@
     margin: 1rem 0;
 }
 .clinical {
-    background: linear-gradient(#00000070, #00000063, #0000004a, #0000006e),url(/images/clinical.png);
+    background: linear-gradient(#00000014, #0000004d, #0000009e, #000000a6),url(/images/clinical.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -230,6 +230,8 @@ ul.socials.col-sm-6 {
 .solutions .blocks .desc {
     font-size: 14px !important;
     line-height: 20px;
+    margin-bottom: 32px;
+    padding-right: 0rem;
 }
 .solutions {
     padding-top: 8px;
@@ -580,9 +582,25 @@ section#provider_mobile_app {
 
 
 @media (max-width:575px){
+    .design h1, .design .h1,
+    .home h1, .home .h1,
+    .access h1, .access .h1, .records h1, .records .h1,
+    .engagement h1, .engagement .h1,
+    .process h1, .process .h1,
+    .clinical .cent h1, .clinical .cent .h1,
+    .container.tools h1,
+    .th_showcase_content h1, .proapp_showcase_content h1,
+    .q_started_content h1,
+    .provider_mobile_app_content h2,
+    .homecare h1, .homecare .h1,
+    .homecare_2 h1, .homecare_2 .h1,
+    .engagem h1, .engagem .h1,
+    h1.def, .def.h1{
+        font-size: 28px;
+    }
    
-    .home h1, .home .h1 {
-        font-size: 30px;
+    .home h1, .home .h1{
+
         max-width: 800px;
     }
     footer .copyright {
@@ -597,7 +615,6 @@ section#provider_mobile_app {
         height: 115%;
     }
     .container.tools h1 {
-        font-size: 2rem;
         font-weight: 500;
     }
     .container.contact {
@@ -673,7 +690,7 @@ section#provider_mobile_app {
        
     }
     section#th_advantage {
-        margin-top: 16rem;
+        margin-top: 5rem;
     }
     .col-lg-4.th_adv_single_box {
         padding: 4rem 2rem;
@@ -696,7 +713,7 @@ section#provider_mobile_app {
         position: absolute;
         left: 40%;
         transform: translateY(-50px);
-        top: -15px;
+        top: -24px;
         z-index: -1;
     }
     .exchange_policy_wrapper > div {
@@ -716,5 +733,16 @@ section#provider_mobile_app {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    .process {
+        padding-top: 7px;
+        margin-top: 17px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .row.exchange_policy_main_wrapper {
+        padding: 0px 2rem;
+    }
+
    
 }

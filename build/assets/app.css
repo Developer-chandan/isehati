@@ -2969,3 +2969,20 @@ section#app_hero {
 section#accordian h3 {
   font-family: "EB Garamond", serif;
 }
+.policy_content h3{
+  text-transform: capitalize;
+}
+.row.clinical_sub_manu,
+.proapp_sub_manu,
+.healthcare_sub_manu,
+.istiapp_sub_manu,
+.talehelth_sub_manu{
+  padding-top: 10px;
+}
+.row.clinical_sub_manu.active,
+.proapp_sub_manu.active,
+.healthcare_sub_manu.active,
+.istiapp_sub_manu.active,
+.talehelth_sub_manu.active{
+  background-color: #f1f1fb;
+}
